@@ -1,6 +1,6 @@
 -- task_4.sql
 -- This script shows the full description of the books table without using DESCRIBE or EXPLAIN
-
+USE alx_book_store;
 SELECT 
     COLUMN_NAME AS 'Field',
     COLUMN_TYPE AS 'Type',
